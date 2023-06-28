@@ -1,0 +1,728 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: renaultfont ;
+    src: url(NouvelRLight.ttf);
+    src: url(NouvelRBold.ttf);
+    src: url(NouvelRRegular.ttf)
+}
+body {
+    font-family: renaultfont , NouvelRLight;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: dimgray;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+.changelg{
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    padding-top: 20px;
+    font-family: 'NouvelRBook';
+}
+.close{
+    color: white;
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.headerending{
+    display: flex;
+    position: relative;
+    margin-top: -45px;
+    width: 100%;
+    height: 53px;
+    margin-left: 935px;
+}
+.lang{
+    width: 200px;
+    height:38px;
+    color: white;
+    border-color: white;
+    border: 1px solid white;
+    background-color: dimgray;
+    margin-right: 10px;
+    font-size: medium;
+}
+.continue{
+    width: 120px;
+    height:38px;
+    color: white;
+    border: none;
+    background-color:black;
+}
+.secondbar{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    width:150px;
+    height:150px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    color: white;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.2);
+    transform-origin: center center;
+    
+  }
+
+  .heads{
+    margin-left: 0px;
+    margin-top: 67px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-size: small;
+    white-space: pre-wrap;
+    
+  }
+  .rightupper{
+    margin-left: 420px;
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-family: 'NouvelRLight';
+    font-size: smaller;
+    white-space: pre-wrap;
+  }
+  .rightd{
+    margin-left: 420px;
+    margin-top: 35px;
+    display: flex;
+    list-style: none;
+    color: white;
+    /* justify-content: space-between; */
+    font-family: 'NouvelRLight';
+    font-size: smaller;
+    white-space: pre-wrap;
+  }
+  .rightdown{
+    padding-left: 0px;
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-size: smaller;
+  
+  }
+  .rightdown1{
+    padding-left: 40px;
+    margin-left: -10px;
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-size: smaller;
+    white-space: pre-wrap;
+  }
+  .rightdown2{
+    padding-left: 40px;
+    margin-left: -10px;
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-size: smaller;
+    white-space: pre-wrap;
+  }
+  .rightdown3{
+    padding-left: 40px;
+    margin-left: -10px;
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    font-size: smaller;
+    white-space: pre-wrap;
+  }
+  .home1{
+    width: 100%;
+    height:100%;
+    position: relative;
+    
+  }
+  .home1 img {
+    width: 100%;
+    height: 10%;
+    object-fit: fill;
+  }
+  .bigtextonhome{
+    font-size: 48px;
+  }
+  .textonhome{
+    position: absolute;
+    margin-top:-530px;
+    margin-left:100px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+  }
+  .button1onhome{
+    width: 130px;
+    height:50px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    font-weight: 700;
+  }
+  .button2onhome{
+    width: 110px;
+    height:50px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(128, 144, 155);
+    border:1px solid white;
+    color: white;
+    font-weight: 700;
+  }
+  .lineonhome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top:-70px;
+  }
+  .forline1{
+    width: 150px;
+    border-top: 2px solid white;
+    text-align: left;
+    padding-top: 20px;
+    color: white;
+    font-size: small;
+  }
+  .forlines{
+    width: 150px;
+    border-top: 1px solid whitesmoke;
+    color: whitesmoke;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: small;
+  }
+  .startdesc{
+    margin-top: -6px;
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    color:black;
+  }
+  .head{
+    padding-top: 60px;
+  }
+  .areas{
+    margin-top: 0px;
+    height:80px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    justify-content: center;
+  }
+  .area{
+    width: 200px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    border: 0.1px solid darkgray;
+    font-size: small;
+    
+  }
+  .introend{
+    margin-top: 0px;
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    font-size: large;
+  }
+  .comment{
+    padding-top: 100px;
+  }
+  .collections{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+    background-color: white;
+  }
+  .img1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.6);
+    transform-origin: center center;
+    padding-left:100px ;
+    padding-right: 60px;
+  }
+  .img2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.6);
+    transform-origin: center center;
+    padding-left:0px ;
+    padding-right: 60px;
+  }
+  .img3{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.6);
+    transform-origin: center center;
+    padding-left:0px ;
+    padding-right: 100px;
+  }
+  .names{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding-left: 130px;
+    padding-right: 300px;
+    justify-content: space-between;
+    /* font-weight: 900; */
+  }
+  .name1{
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 300px;
+    
+  }
+  .name2{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 310px;
+  }
+  .name3{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 300px;
+  }
+  .links{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding-left: 130px;
+    padding-right: 300px;
+    justify-content: space-between;
+    font-family: 'NouvelRRegular';
+    font-size: large;
+  }
+  .link1{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 300px;
+  }
+  .link2{
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 320px;
+  }
+  .link3{
+    padding-top: 0px;
+    padding-left: 37px;
+    padding-right: 300px;
+  }
+  .premiumouter{
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    justify-content: center;
+    padding-top: 10px;
+
+  }
+  .premium{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0px;
+    width: 91%;
+    height: 200px;
+    background-color: white;
+    border:0.2px solid darkgray;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h2{
+    padding-top: 40px;
+    font-family: "NouvelRBold";
+    font-size: 1.7rem;
+  }
+  .know{
+    width: 200px;
+    height:40px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+  }
+  .explore{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    font-weight: 700;
+    padding-top: 60PX;
+  }
+  .virtuals{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .virtuals1{
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+  }
+  .virtuals2{
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+  }
+  .urimgs{
+    display: flex;
+  }
+  .urfirst{
+    font-family: "NouvelRRegular";
+    padding-top: 0;
+    background-color: white;
+    width: 50%;
+    height: 200px;
+  }
+  .ursecond{
+    font-family: "NouvelRRegular";
+    background-color:white;
+    width: 50%;
+    height: 200px;
+  }
+  #button1{
+    width: 150px;
+    height: 40px;
+    margin-left: -480px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  #button2{
+    width: 100px;
+    height: 40px;
+    margin-left: -530px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  p{
+    padding-left: 30px;
+    text-align: left;
+    font-size: medium;
+  }
+  .title{
+    text-align: left;
+    font-size: x-large;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .latest{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .latest1{
+    padding-left: 60px;
+    padding-right: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+  }
+  .latest2{
+    padding-left: 60px;
+    padding-right: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+  }
+  .latest3{
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+  }
+  .ur3imgs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .urimg1 p{
+    font-family: 'sans-serif';
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 55px;
+    background-color: white;
+    width: 100%;
+  }
+  .urimg2 p{
+    font-family:  'sans-serif';
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 60px;
+    background-color: white;
+    width: 100%;
+  }
+  .urimg3 p{
+    font-family: 'sans-serif';
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 40;
+    padding-top: 30px;
+    padding-right: 0px;
+    background-color: white;
+    width: 100%;
+  }
+  .urimg1{
+    width: 33%;
+  }
+  .urimg2{
+    width: 33%;
+  }
+  .urimg3{
+    width: 33%;
+  }
+  .urimgb1{
+    width: 150px;
+    height: 40px;
+    margin-left: -250px;
+    border: none;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+  }
+  .urimgb2{
+    width: 150px;
+    height: 40px;
+    margin-left: -275px;
+    border: none;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+  }
+  .urimgb3{
+    width: 150px;
+    height: 40px;
+    margin-left: -300px;
+    border: none;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+  }
+  .late{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .late1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: lightgrey;
+    margin-left: 60px;
+
+  }
+  .late1text{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 15px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+  }
+  .late1arrow{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 370px;
+    text-align: left;
+    color: yellow;
+    font-size: 20px;
+  }
+  .late2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: lightgrey;
+    margin-left: 20px;
+  }
+  .late3{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: lightgray;
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+  .gap{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+  }
+  .footer{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  .last{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    border-bottom: 0.1px solid gray;
+  }
+  .lt1{
+    margin-left: 30px;
+    margin-top: 30px;
+    list-style: none;
+    text-align: left;
+    font-family: 'NouvelRRegular';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .lt2{
+    margin-left: 150px;
+    margin-top: 30px;
+    list-style: none;
+    text-align: left;
+    font-family: 'NouvelRLight';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .lt5{
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-top: 0px;
+    list-style: none;
+    text-align: left;
+    font-family: 'NouvelRLight';
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    display: flex;
+  }
+  .icons{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: navy;
+    border-radius: 50%;
+    border: none;
+    margin-top: 50px;
+    margin-left: -80px;
+  }
+  .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 50px;
+    margin-left:20px;
+  }
+  .iconl{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 90px;
+    margin-left:-230px;
+  }
+  .end{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    text-align: left;
+    font-family: 'NouvelRLight';
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+  .ending{
+    padding-top: 20px;
+    padding-left: 650px;
+  }
+  .endlang{
+    margin-top: -30px;
+    margin-left: 1210px;
+    width: 70px;
+    height:38px;
+    border: 0.1px solid dimgray;
+    background-color: white;
+    font-size: medium;
+  }
